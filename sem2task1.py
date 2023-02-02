@@ -1,3 +1,4 @@
+# Задание было в изначальном дз. Но теперь, как дополнительное идет. Найти сумму цифр вещественного числа (и не только)
 num = input('Введите вещественное число: ')
 sum = 0
 listNum = list(num)
@@ -13,7 +14,7 @@ if float(num) < 0:
 else:
     print(sum)
 
-# Ниже две попытки, не увенчавшиеся успехом, но может укажешь на ошибки :)
+# Ниже попытка, не увенчавшаяся успехом, но может укажешь на ошибки :)
 
 # if num != int(num):
 #     while num != int(num):
@@ -21,11 +22,4 @@ else:
 # while num != 0:
 #     sum += num % 10
 #     num //= 10
-# print(int(sum))
-
-# for i in range(len(str(num))):
-#     if str(num)[i].isdigit == False:
-#         continue
-#     else:
-#         sum += int(str(num)[i])
 # print(int(sum))
